@@ -1,7 +1,9 @@
 import java.util.*;
 
 public class AL1 {
-
+    // the i in the parameter will take the maximum/largest index of the arraylist
+    // i.e if the size of the arraylist is n then i should be n-1
+    // its work is to iterate over the arraylist
     static ArrayList<Integer> productOfList(ArrayList<Integer> arr, int i) {
         ArrayList<Integer> list = new ArrayList<Integer>();
         int product;
